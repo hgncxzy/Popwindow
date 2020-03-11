@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp_73_5"
+    android:layout_height="@dimen/dp_61_5"
+    android:background="@mipmap/popwindow_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_chinese"
+        android:layout_width="@dimen/dp_73_5"
+        android:layout_height="@dimen/dp_30_5"
+        android:background="@drawable/popwindow_chinese_selector"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dp_18_5"
+            android:layout_height="@dimen/dp_18_5"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/lan_zh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_11"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/dp_5"
+            android:text="中文"
+            android:textColor="@color/grey_33"
+            android:textSize="@dimen/dp_8"
+            tools:ignore="HardcodedText,SpUsage" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/dp_73_5"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/color_f3f3f3" />
+
+    <LinearLayout
+        android:id="@+id/ll_english"
+        android:layout_width="@dimen/dp_73_5"
+        android:layout_height="@dimen/dp_30_5"
+        android:background="@drawable/popwindow_english_selector"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dp_18_5"
+            android:layout_height="@dimen/dp_18_5"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp_6"
+            android:src="@mipmap/lan_en" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_11"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp_5"
+            android:gravity="center_vertical"
+            android:text="English"
+            android:textColor="@color/grey_33"
+            android:textSize="@dimen/dp_8"
+            tools:ignore="HardcodedText,SpUsage" />
+    </LinearLayout>
+</LinearLayout>
